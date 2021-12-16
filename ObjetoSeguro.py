@@ -15,11 +15,6 @@ class Objetoseguro():
         self.nombre_receptor = None
 
 
-    """def __gen_llaves(self):
-        self.__key_private = generate_eth_key()
-        llavePrivada = self.__key_private_hex = self.__key_private.to_hex()
-        llavepu = self.key_public = self.__key_private.public_key.to_hex()
-        return llavepu, llavePrivada"""
 
     def llave_publica(self) -> str:
         return self.__llave_p
